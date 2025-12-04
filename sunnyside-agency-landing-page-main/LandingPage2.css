@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* ========================= HERO ========================= */
+.hero {
+  height: 90vh;
+  background: url("/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg")
+    center/cover no-repeat;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+/* NAVIGATION */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-btn {
+  /* background: white; */
+  color: black;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  /* margin-bottom: 50px; */
+}
+
+.hero-title {
+  margin-top: 80px;
+  font-size: 52px;
+  letter-spacing: 10px;
+  font-family: 'Fraunces', serif;
+}
+
+.down-arrow {
+  margin-top: 50px;
+  width: 36px;
+}
+
+.six-box-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.box {
+  min-height: 500px;
+}
+
+.text-box {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-box h2 {
+  font-family: 'Fraunces', serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.text-box p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.text-box a {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: 'Fraunces', serif;
+  text-decoration: none;
+  color: black;
+}
+
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.graphic-design {
+  background: url("/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg")
+    center/cover no-repeat;
+  color: #25564b;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 40px;
+  text-align: center;
+}
+
+
+.photography {
+  background: url("/sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg")
+    center/cover no-repeat;
+  color: #19536b;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 40px;
+  text-align: center;
+}
+
+.bg-box .content {
+  max-width: 350px;
+}
+
+.bg-box h2 {
+  font-family: 'Fraunces', serif;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.bg-box p {
+  font-size: 16px;
+}
+
+.testimonials {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.testimonials h2 {
+  font-family: 'Fraunces', serif;
+  letter-spacing: 5px;
+  margin-bottom: 60px;
+  color: #a7a7a7;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.t-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.t-text {
+  font-size: 15px;
+  margin-bottom: 25px;
+  color: #444;
+}
+
+.t-name {
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+}
+
+.t-title {
+  font-size: 13px;
+  color: #999;
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  background: #90d4c6;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.footer h2 {
+  font-family: 'Fraunces', serif;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #2b6d62;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-links a {
+  color: #2b6d62;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social img {
+  margin: 0 12px;
+  width: 20px;
+}
