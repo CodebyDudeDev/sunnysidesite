@@ -32,6 +32,7 @@ body {
   display: flex;
   gap: 30px;
   list-style: none;
+  align-items: center;
 }
 
 .nav-links a {
